@@ -23,9 +23,6 @@ app.use([
   cors({
     origin: "*",
   }),
-  bodyParser.urlencoded({
-    extended: false,
-  }),
   bodyParser.json({
     limit: "20mb",
     type: "application/json",
